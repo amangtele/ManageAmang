@@ -106,7 +106,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="❓ Bantuan callback_data="emiko_support"
+        InlineKeyboardButton(text="❓ Bantuan", callback_data="emiko_support"
        ),
 
     ],
