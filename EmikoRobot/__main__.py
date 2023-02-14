@@ -102,7 +102,7 @@ buttons = [
         InlineKeyboardButton(text="🧑‍💻 Owner", url="t.me/Iam_Wynne"
         ),
         InlineKeyboardButton(
-            text="📣 Updates" url="https://t.me/WynneProjects"
+            text="📣 Updates", url="https://t.me/WynneProjects"
         ),
     ],
     [
