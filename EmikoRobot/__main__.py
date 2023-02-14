@@ -85,7 +85,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an {} [✨](https://telegra.ph/file/4307cd29ff7e151d8e315.jpg)
+✪ I'm an {} [✨](https://telegra.ph//file/380123d937cc563553c63.jpg)
 ────────────────────────
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
@@ -93,18 +93,22 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"),
-    ],
-    [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        [
         InlineKeyboardButton(
-            text="Owner Bot", url=f"t.me/{uname}"
+            text="Tambahkan ke grup 🎉", url="t.me/Wynnetapiibot?startgroup=true"
         ),
     ],
     [
+        InlineKeyboardButton(text="🧑‍💻 Owner", url="t.me/Iam_Wynne"
+        ),
         InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="📣 Updates" url="https://t.me/WynneProjects"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="❓ Bantuan callback_data="emiko_support"
+       ),
+
     ],
 ]
 
