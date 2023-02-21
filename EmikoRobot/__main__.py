@@ -447,7 +447,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*Bantuan Perintah AmangRobot*"
-            "\npilih tombol dibawah untuk melihat bantuan perintah Indo Music Bot",
+            "\npilih tombol dibawah untuk melihat bantuan perintah AmangRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
