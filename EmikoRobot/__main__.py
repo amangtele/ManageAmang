@@ -97,18 +97,18 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕Add Me To Your Group ➕", url="t.me/Wynnetapiibot?startgroup=true"
+            text="➕ Tambahkan Saya Ke Grup ➕", url="t.me/AmangRobot_bot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="❓ Get Help", callback_data="emiko_support"
+        InlineKeyboardButton(text="❓ Bantuan", callback_data="emiko_support"
         ),
         InlineKeyboardButton(
             text="📣 Support", url="https://t.me/amangsupportgrup"
         ),
     ],
     [
-        InlineKeyboardButton(text="☕️ Donate", callback_data="emiko_donate"
+        InlineKeyboardButton(text="☕️ Donasi", url="https://t.me/amwangstore/52"
        ),
 
     ],
@@ -454,28 +454,6 @@ def emiko_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="🎧ᴍᴜsɪᴄ", callback_data="emiko_"),
                     InlineKeyboardButton(text="🤖ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="⭅ ᴋᴇᴍʙᴀʟɪ", callback_data="emiko_back"),
-                 
-                 ]
-                ]
-            ),
-        )
-
-        
-        
-      elif query.data == "emiko_donate":
-        query.message.edit_text(
-            text="👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat Hikari,"
-            "\n• Via Dana 088221010546 atau"
-            "\n• Silahkan Hubungi Owner atau klik dibawah ini",
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                    InlineKeyboardButton(text="ᴀᴍᴀɴɢ", url="https://t.me/amwang"),
-                    InlineKeyboardButton(text="ꜱᴄᴀɴ Qʀɪꜱ", url="https://t.me/amwangstore/52"),
                  ],
                  [
                     InlineKeyboardButton(text="⭅ ᴋᴇᴍʙᴀʟɪ", callback_data="emiko_back"),
