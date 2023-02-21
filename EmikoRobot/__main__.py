@@ -108,7 +108,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="☕️ Donate", callback_data="donate_data"
+        InlineKeyboardButton(text="☕️ Donate", callback_data="emiko_donate"
        ),
 
     ],
@@ -465,7 +465,7 @@ def emiko_about_callback(update, context):
 
         
         
-      elif query.data == "donate_data":
+      elif query.data == "emiko_donate":
         query.message.edit_text(
             text="👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat Hikari,"
             "\n• Via Dana 088221010546 atau"
