@@ -115,8 +115,7 @@ buttons = [
 ]
 
 
-
-  HELP_STRINGS = """
+HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang fitur manage AmangRobot."""
 
 
